@@ -597,7 +597,7 @@ export default function Seniors() {
                         <p className="hometown"><span>Hometown:</span><br />{senior.hometown}</p>
                         <p className="college"><span>College:</span><br />{senior.college}</p>
                         <p className="school"><span>School:</span><br />{senior.school}</p>
-                        <p className="bio">``{senior.bio}``</p>
+                        <p className="bio">{senior.bio}</p>
                       </div>
                       
                       {

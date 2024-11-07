@@ -17,8 +17,8 @@
 }
 
 .seniors .card .photo {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid var(--bgColor5);
@@ -54,8 +54,13 @@
 }
 .seniors .card .bio {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 00;
   margin-top: 15px;
+  color: rgb(255, 255, 255) !important;
+  padding: 15px;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  overflow: hidden;
 }
 .seniors .card .social_links {
   margin-top: 20px;
